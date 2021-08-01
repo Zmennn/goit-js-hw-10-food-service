@@ -10,6 +10,9 @@ const Theme = {
 };
 
 
+listElement.innerHTML = productCardTemplate(dishCards);
+
+
 allScreen.classList.add(localStorage.getItem('theme'));
 if (localStorage.getItem('theme') === Theme.DARK) {
     themeToggleElement.checked = true
@@ -32,4 +35,3 @@ function onThemeToggle(event) {
 
 
 
-listElement.innerHTML = productCardTemplate(dishCards);
