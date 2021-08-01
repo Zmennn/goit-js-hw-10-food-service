@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["console","log","productCardTemplate"],"mappings":";;;AACA,aADA,IAAA,EAAA,EAAA,QAAA,6BACA,SAAA,EAAA,GAAA,OAAA,GAAA,EAAA,WAAA,EAAA,CAAA,QAAA,GAAAA,QAAQC,IAAIC,EAAZ","file":"src.fc33ba62.js","sourceRoot":"../src","sourcesContent":["import productCardTemplate from './templates/template.hds'\nconsole.log(productCardTemplate);\n\n"]}
