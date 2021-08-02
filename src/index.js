@@ -12,8 +12,12 @@ const Theme = {
 
 listElement.innerHTML = productCardTemplate(dishCards);
 
+if (!localStorage.getItem('theme')) {
+    localStorage.setItem('theme', Theme.LIGHT)
+};
 
 allScreen.classList.add(localStorage.getItem('theme'));
+
 if (localStorage.getItem('theme') === Theme.DARK) {
     themeToggleElement.checked = true
 };
